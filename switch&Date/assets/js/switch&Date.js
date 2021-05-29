@@ -88,11 +88,13 @@
 
 
 
+setInterval(() => {
+    const h1 = document.querySelector('.container h1');
+    const data = new Date();
 
-const h1 = document.querySelector('.container h1');
-const data = new Date();
+    h1.innerHTML = data.toLocaleString('pt-BR', { dateStyle: 'full', timeStyle: 'medium' });
+}, 1000)
 
-h1.innerHTML = data.toLocaleString('pt-BR', { dateStyle: 'full', timeStyle: 'medium' });
 
 // h1.innerHTML = `${diaSemanaTexto}, ${dia} de ${mesTexto} de ${ano}  ${hora}:${minuto}:${segundo}`;
 
