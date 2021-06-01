@@ -89,7 +89,7 @@ function pegaTarefas() {
 
 pegaTarefas();
 
-var chatbox = document.getElementById('fb-customer-chat');
+const chatbox = document.getElementById('fb-customer-chat');
 chatbox.setAttribute("page_id", "100737232233199");
 chatbox.setAttribute("attribution", "biz_inbox");
 window.fbAsyncInit = function() {
