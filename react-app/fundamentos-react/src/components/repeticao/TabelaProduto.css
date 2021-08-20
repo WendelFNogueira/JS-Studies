@@ -1,0 +1,13 @@
+.TabelaProduto table{
+    width: 100%;
+    border-radius: 8px;
+}
+
+.TabelaProduto th{
+    background-color: #b844b8;
+    color: #fff;
+
+}
+.TabelaProduto .Par{
+    background-color: rgb(218, 213, 213);
+}
